@@ -8,6 +8,11 @@ spring:
     password: zhangfan@07171074
   jpa:
     show-sql: true
+  rabbitmq:
+    host: 192.168.31.90
+    port: 5672
+    username: admin
+    password: admin
 eureka:
   client:
     service-url:
