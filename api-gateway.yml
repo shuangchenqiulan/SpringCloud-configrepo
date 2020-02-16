@@ -9,6 +9,7 @@ server:
   port: 8085
 #自定义路由的规则
 zuul:
+  sensitive-headers: 
   routes:
     myproduct:
       path: /myproduct/**
