@@ -15,6 +15,5 @@ eureka:
         defaultZone: http://localhost:8761/eureka/
 #手动进行服务路由的配置
 zuul:
-  prefix:  /api
   routes:
     organizationservice: /organization/**
